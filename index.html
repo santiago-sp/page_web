@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santiago Salas | Desarrollador de Software</title>
+    <meta name="description"
+        content="Santiago Salas - Desarrollador de Software aprendiendo desarrollo full-stack con Python, Django, React, Java y Kotlin.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-outline" id="cursor-outline"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">S.</a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">Sobre Mí</a>
+                <a href="#experience" class="nav-link">Formación</a>
+                <a href="#projects" class="nav-link">Proyectos</a>
+                <a href="#contact" class="nav-link">Contacto</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="#about" class="mobile-link">Sobre Mí</a>
+        <a href="#experience" class="mobile-link">Formación</a>
+        <a href="#projects" class="mobile-link">Proyectos</a>
+        <a href="#contact" class="mobile-link">Contacto</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-greeting fade-in">
+                    Hola, soy <span class="highlight">Santiago Salas</span> 👋
+                </h1>
+                <h2 class="hero-title fade-in delay-1">Estudiante de TECSUP | Desarrollador en Formación</h2>
+                <p class="hero-description fade-in delay-2">
+                    Estudiante de 4to ciclo en TECSUP Lima, apasionado por el desarrollo full-stack con Python, Django,
+                    React, Java y Kotlin. Comprometido con el aprendizaje continuo y la adaptabilidad en el mundo tech.
+                </p>
+                <div class="hero-social fade-in delay-3">
+                    <a href="https://www.linkedin.com/in/santiagosalasperez" target="_blank" aria-label="LinkedIn"
+                        class="social-link">
+                        <i data-lucide="linkedin"></i>
+                    </a>
+                    <a href="https://github.com/santiago-sp" target="_blank" aria-label="GitHub" class="social-link">
+                        <i data-lucide="github"></i>
+                    </a>
+                    <a href="https://x.com/santiago_dev_sp" target="_blank" aria-label="X" class="social-link">
+                        <i data-lucide="twitter"></i>
+                    </a>
+                    <a href="mailto:santiagotech.dev@gmail.com" aria-label="Email" class="social-link">
+                        <i data-lucide="mail"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header reveal-on-scroll">
+                <h2 class="section-title">Sobre Mí</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content reveal-on-scroll delay-1">
+                <div class="about-text">
+                    <h3 class="about-subtitle">🎯 Estudiante de TECSUP | Desarrollador en Formación | Apasionado por la
+                        Tecnología</h3>
+                    <p>
+                        Hola, soy Santiago Salas, estudiante de 4to ciclo en TECSUP Lima. Soy un apasionado de la
+                        tecnología
+                        con un fuerte compromiso con el aprendizaje continuo y la adaptabilidad. Me encanta crear
+                        soluciones
+                        de software mientras exploro mis intereses en la música y la buena comida.
+                    </p>
+                    <p>
+                        Actualmente me estoy formando en desarrollo full-stack, enfocándome en tecnologías como Python,
+                        Django, React, Java y Kotlin. Mi objetivo es convertirme en un desarrollador versátil capaz de
+                        enfrentar cualquier desafío tecnológico.
+                    </p>
+
+                    <h4>💡 Lo que me define</h4>
+                    <ul class="about-list">
+                        <li>🎓 Estudiante de 4to ciclo en TECSUP Lima - Carrera de Desarrollo de Software</li>
+                        <li>🚀 Adaptabilidad y compromiso con el aprendizaje continuo</li>
+                        <li>🎵 Amante de la música y la buena comida</li>
+                        <li>💻 Enfocado en desarrollo web full-stack y aplicaciones móviles</li>
+                        <li>🌱 Siempre buscando nuevos conocimientos y desafíos</li>
+                    </ul>
+
+                    <div class="skills-grid">
+                        <div class="skill-tag">Python</div>
+                        <div class="skill-tag">Django</div>
+                        <div class="skill-tag">React</div>
+                        <div class="skill-tag">Java</div>
+                        <div class="skill-tag">Kotlin</div>
+                        <div class="skill-tag">MySQL</div>
+                        <div class="skill-tag">Git</div>
+                        <div class="skill-tag">HTML/CSS</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header reveal-on-scroll">
+                <h2 class="section-title">Formación</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="experience-timeline">
+                <div class="timeline-item reveal-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Carrera de Desarrollo de Software</h3>
+                            <span class="timeline-date">2023 - Presente</span>
+                        </div>
+                        <h4 class="company-name">TECSUP Lima - 4to Ciclo</h4>
+                        <p class="timeline-description">
+                            Estudiando desarrollo de software en TECSUP, una de las instituciones técnicas más
+                            prestigiosas del Perú.
+                            Aprendiendo desarrollo full-stack, bases de datos, programación orientada a objetos y
+                            metodologías ágiles.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal-on-scroll delay-1">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Desarrollo Web Full-Stack</h3>
+                            <span class="timeline-date">2024 - Presente</span>
+                        </div>
+                        <h4 class="company-name">Django & React</h4>
+                        <p class="timeline-description">
+                            Aprendizaje autodidacta de tecnologías web modernas. Creando aplicaciones web con Django
+                            para backend robusto y React para interfaces dinámicas y responsivas.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">Django</span>
+                            <span class="tag">React</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal-on-scroll delay-2">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Desarrollo Móvil Android</h3>
+                            <span class="timeline-date">2024</span>
+                        </div>
+                        <h4 class="company-name">Java & Kotlin</h4>
+                        <p class="timeline-description">
+                            Explorando el desarrollo de aplicaciones móviles nativas para Android.
+                            Aprendiendo Java y Kotlin, diseño de interfaces y arquitectura de apps móviles.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">Kotlin</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">Android Studio</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header reveal-on-scroll">
+                <h2 class="section-title">En Aprendizaje</h2>
+                <div class="title-underline"></div>
+                <p
+                    style="text-align: center; color: var(--text-secondary); margin-top: 1rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+                    Actualmente estoy enfocado en aprender y practicar con estas tecnologías.
+                    Pronto estarán disponibles mis proyectos en GitHub.
+                </p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card reveal-on-scroll">
+                    <div class="project-image">
+                        <div class="project-overlay" style="background: rgba(59, 130, 246, 0.85);">
+                            <div style="color: white; font-size: 3rem;">
+                                <i data-lucide="code-2"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Desarrollo Web con Django</h3>
+                        <p class="project-description">
+                            Aprendiendo a crear aplicaciones web robustas con Django. Practicando modelos, vistas,
+                            templates y autenticación de usuarios siguiendo el curso de TECSUP.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Django</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card reveal-on-scroll delay-1">
+                    <div class="project-image">
+                        <div class="project-overlay" style="background: rgba(139, 92, 246, 0.85);">
+                            <div style="color: white; font-size: 3rem;">
+                                <i data-lucide="smartphone"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Apps Android con Kotlin</h3>
+                        <p class="project-description">
+                            Explorando el desarrollo móvil con Kotlin y Android Studio.
+                            Practicando layouts, activities, fragments y manejo de datos locales.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Kotlin</span>
+                            <span class="tag">Android</span>
+                            <span class="tag">Java</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card reveal-on-scroll delay-2">
+                    <div class="project-image">
+                        <div class="project-overlay" style="background: rgba(16, 185, 129, 0.85);">
+                            <div style="color: white; font-size: 3rem;">
+                                <i data-lucide="layout-dashboard"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Interfaces con React</h3>
+                        <p class="project-description">
+                            Aprendiendo React para crear interfaces modernas e interactivas.
+                            Practicando componentes, hooks, estado y consumo de APIs.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">HTML/CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center" style="margin-top: 3rem;">
+                <p style="color: var(--text-secondary); font-size: 1.1rem; margin-bottom: 0.5rem; line-height: 1.6;">
+                    📦 Cuenta nueva dedicada exclusivamente a proyectos profesionales
+                </p>
+                <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1.5rem;">
+                    Actualmente migrando mis proyectos anteriores a esta cuenta. ¡Pronto disponibles!
+                </p>
+                <a href="https://github.com/santiago-sp" target="_blank" class="btn"
+                    style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 1rem 2rem; background: var(--accent-gradient); color: white; text-decoration: none; border-radius: var(--radius-md); font-weight: 500; transition: transform 0.3s ease;">
+                    <i data-lucide="github"></i>
+                    Visitar mi GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header reveal-on-scroll">
+                <h2 class="section-title">Conectemos</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="contact-content reveal-on-scroll delay-1">
+                <p class="contact-description">
+                    Siempre estoy abierto a discutir nuevos proyectos, ideas creativas u oportunidades de colaboración
+                    y aprendizaje.
+                </p>
+                <div class="contact-methods">
+                    <a href="mailto:santiagotech.dev@gmail.com" class="contact-method">
+                        <i data-lucide="mail"></i>
+                        <span>santiagotech.dev@gmail.com</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/santiagosalasperez" target="_blank" class="contact-method">
+                        <i data-lucide="linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/santiago-sp" target="_blank" class="contact-method">
+                        <i data-lucide="github"></i>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Santiago Salas. Hecho con pasión y café ☕</p>
+                <div class="footer-links">
+                    <a href="#about">Sobre Mí</a>
+                    <a href="#experience">Formación</a>
+                    <a href="#projects">Proyectos</a>
+                    <a href="#contact">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
