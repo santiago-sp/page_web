@@ -4,12 +4,12 @@
 
 **Nombre:** Santiago Salas  
 **Ubicación:** Lima, Perú  
-**Institución:** TECSUP Lima - 4to Ciclo  
+**Institución:** TECSUP Lima - 5to Ciclo  
 **Carrera:** Desarrollo de Software  
 
 ## 🎯 Descripción
 
-Estudiante de 4to ciclo en TECSUP Lima, apasionado por el desarrollo de software y el aprendizaje continuo. Comprometido con la adaptabilidad y siempre buscando nuevos conocimientos en el mundo tech.
+Estudiante de 5to ciclo en TECSUP Lima, apasionado por el desarrollo de software, la automatización básica con n8n y el aprendizaje continuo. Comprometido con la adaptabilidad y siempre buscando nuevos conocimientos en el mundo tech.
 
 ## 🎵 Intereses Personales
 
@@ -41,11 +41,12 @@ Estudiante de 4to ciclo en TECSUP Lima, apasionado por el desarrollo de software
 ### Herramientas
 - Git
 - GitHub
+- n8n (Básico)
 
 ## 📚 Formación Académica
 
 ### 1. TECSUP Lima (2023 - Presente)
-**Carrera de Desarrollo de Software - 4to Ciclo**
+**Carrera de Desarrollo de Software - 5to Ciclo**
 - Desarrollo full-stack
 - Bases de datos
 - Programación orientada a objetos
@@ -85,6 +86,12 @@ Estudiante de 4to ciclo en TECSUP Lima, apasionado por el desarrollo de software
 - Manejo de estado
 - Consumo de APIs
 - **Stack:** React, JavaScript, HTML/CSS
+
+### 4. Automatización básica con n8n
+- Creación de workflows simples
+- Conexión entre servicios y APIs
+- Automatización de tareas repetitivas
+- **Stack:** n8n, Workflows, APIs
 
 ## 📱 Redes Sociales y Contacto
 
@@ -141,5 +148,5 @@ Estudiante de 4to ciclo en TECSUP Lima, apasionado por el desarrollo de software
 
 ---
 
-**Última actualización:** 6 de diciembre de 2024  
-**Versión:** 1.0 - Estudiante en Formación
+**Última actualización:** 31 de mayo de 2026  
+**Versión:** 1.1 - Estudiante en Formación

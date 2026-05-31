@@ -4,7 +4,7 @@ Portafolio web moderno y profesional desarrollado con HTML, CSS y JavaScript van
 
 ## 👨‍💻 Sobre Mí
 
-Estudiante de 4to ciclo en TECSUP Lima, apasionado por el desarrollo de software y el aprendizaje continuo. Este portafolio muestra mi trayectoria educativa, proyectos y habilidades técnicas.
+Estudiante de 5to ciclo en TECSUP Lima, apasionado por el desarrollo de software, la automatización básica con n8n y el aprendizaje continuo. Este portafolio muestra mi trayectoria educativa, proyectos y habilidades técnicas.
 
 ## ✨ Características
 
@@ -25,6 +25,7 @@ Estudiante de 4to ciclo en TECSUP Lima, apasionado por el desarrollo de software
 - HTML5
 - CSS3 (Variables CSS, Flexbox, Grid)
 - JavaScript (ES6+)
+- n8n básico
 - Lucide Icons
 - Google Fonts (Inter, JetBrains Mono)
 
@@ -92,9 +93,10 @@ Actualiza tu información en `index.html`:
 
 ## 🎓 Formación
 
-**TECSUP Lima** - Desarrollo de Software (4to Ciclo)
+**TECSUP Lima** - Desarrollo de Software (5to Ciclo)
 - Python, Java, MySQL
 - Django, React, Kotlin
+- Automatización básica con n8n
 - Desarrollo Full-Stack y Móvil
 
 ## 💡 Características Técnicas
