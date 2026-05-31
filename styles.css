@@ -306,6 +306,13 @@ body {
     box-shadow: var(--shadow-glow);
 }
 
+.brand-icon {
+    width: 24px;
+    height: 24px;
+    display: block;
+    flex-shrink: 0;
+}
+
 /* ==================== SCROLL INDICATOR ==================== */
 .scroll-indicator {
     position: absolute;
